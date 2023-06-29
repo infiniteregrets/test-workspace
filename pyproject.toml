@@ -1,14 +1,13 @@
 [tool.poetry]
-name = "test-workspace"
+name = "pythonproject"
 version = "0.1.0"
 description = ""
 authors = ["infiniteregrets <aroram18@mcmaster.ca>"]
 readme = "README.md"
-packages = [{include = "test_workspace"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-Flask = "^2.3.2"
+flask = "^2.3.2"
 
 
 [build-system]
